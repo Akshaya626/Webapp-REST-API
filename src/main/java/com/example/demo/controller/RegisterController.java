@@ -15,7 +15,7 @@ import com.example.demo.service.RegisterService;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:3000") // Adjust origin to match your React frontend URL
+@CrossOrigin(origins = "http://localhost:3000")
 public class RegisterController {
 
     private final RegisterService userService;
