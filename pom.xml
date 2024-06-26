@@ -115,6 +115,12 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>3.2.5</version>
             </plugin>
+            <!-- Spring Boot Maven Plugin -->
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.7.0.1746</version>
+            </plugin>
             
             <!-- JaCoCo Maven Plugin for code coverage -->
             <plugin>
@@ -138,6 +144,8 @@
             </plugin>
         </plugins>
     </build>
+    
+   
     
     <reporting>
         <plugins>
